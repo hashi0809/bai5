@@ -1,0 +1,36 @@
+body {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+}
+aside {
+  background: #ea6868;
+  height: 1024px;
+  width: 78px;
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 121px;
+  height: 1024px;
+  padding-top: 159px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  width: 78px;
+}
+.color {
+  background-color: #e9f1fe;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+}
