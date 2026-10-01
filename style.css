@@ -98,7 +98,6 @@ aside img {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 20px 0;
 }
 
 .first {
@@ -111,16 +110,23 @@ aside img {
 }
 
 .top {
+  font-family: Poppins;
   font-weight: 500;
+  font-style: Medium;
   font-size: 24px;
-  line-height: 36px;
-  color: #3e435d;
+  line-height: 100%;
+  letter-spacing: 0px;
 }
 
 .common {
-  font-size: 14px;
-  color: #999;
-  font-weight: 300;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+
+  color: #ada7a7;
 }
 
 .header-right {
@@ -155,7 +161,13 @@ aside img {
 }
 
 .search-box input::placeholder {
-  color: #bbb;
+  color: #ada7a7;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
 }
 
 .notif-btn {
@@ -219,22 +231,28 @@ aside img {
 .profile-info {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 12px;
 }
 
 .profile-info h2 {
-  font-size: 20px;
-  font-weight: 500;
-  color: #3e435d;
-  line-height: 24px;
-  letter-spacing: 0;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+
+  color: #000000;
 }
 
 .profile-info p {
-  font-size: 16px;
+  font-family: Poppins;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+
   color: #000000;
   opacity: 0.5;
 }
@@ -362,7 +380,7 @@ aside img {
 .email-section h3 {
   font-size: 18px;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 24px;
   letter-spacing: 0;
   color: #000000;
 }
@@ -371,7 +389,7 @@ aside img {
   display: flex;
   align-items: center;
   gap: 20px;
-  height: 54px;
+  height: 48px;
 }
 
 .icon-circle {
@@ -389,7 +407,7 @@ aside img {
 .email-info {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 12px;
 }
 
 .email-info .email-text {
