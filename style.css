@@ -6,6 +6,7 @@
 }
 
 body {
+  display: flex;
   background-color: #f9f9f9;
   min-height: 1024px;
 }
@@ -37,7 +38,6 @@ aside li,
 }
 
 aside {
-  position: fixed;
   top: 0;
   left: 0;
   width: 78px;
@@ -52,23 +52,19 @@ aside {
 aside ul {
   display: flex;
   flex-direction: column;
-  gap: 47px;
+  gap: 13px;
   margin-top: 176px;
 }
 
 aside li {
-  width: 24px;
-  height: 24px;
+  width: 78px; /* ✅ Figma: nền xanh 121px */
+  height: 58px; /* ✅ Figma: nền xanh 58px */
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   transition: background-color 0.2s;
-  border-radius: 4px;
-}
-
-aside li:hover {
-  background-color: #f0f0f0;
+  border-radius: 0;
 }
 
 aside li.color {
@@ -84,8 +80,8 @@ aside img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 78px;
   padding: 32px 40px 32px;
+  flex: 1;
 }
 
 .header {
